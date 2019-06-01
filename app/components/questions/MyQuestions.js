@@ -35,7 +35,7 @@ class MyQuestions extends Component {
         <IconMaterial.Button name="facebook" backgroundColor="#3b5998">
           Logar com Facebook
         </IconMaterial.Button>
-        <Slider minimumValue={10} onValueChange={} maximumValue={120} step={2} />
+        <Slider minimumValue={10} onValueChange={() => { }} maximumValue={120} step={2} />
         <ListView
           dataSource={this.state.dataSource}
           enableEmptySections={true}
